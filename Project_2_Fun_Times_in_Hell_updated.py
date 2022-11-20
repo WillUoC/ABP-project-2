@@ -164,7 +164,6 @@ psi = 2.8                                       # Blade loading coefficient, can
 phi = 0.77                                      # Flow coefficient, cannot be less than 0.75
 C_a = 300                                       # Axial flow in turbine (m/s)
 
-U_m = C_a/phi
 
 delta_T0s = w_c/cpg                             # Temperature change over turbine section
 print("\nTurbine Temperature Drop:", round(delta_T0s, 2), "K")
